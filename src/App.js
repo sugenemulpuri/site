@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import Header from './components/Header'
 import Nav from './components/Nav'
@@ -15,7 +15,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Header />
     <Nav />
     <Routes>
@@ -30,7 +30,7 @@ function App() {
       <Route path="/resume" element={<Resume />}/>
     </Routes>
     <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
