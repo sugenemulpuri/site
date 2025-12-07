@@ -1,0 +1,55 @@
+[
+    {
+        "image": "./images/Photography/SanFrancisco/San-Francisco-Cover.jpeg",
+        "description": "Mountain in San Francisco"
+    },
+    {
+        "image": "./images/Photography/SanFrancisco/San-Francisco-Skyline.jpg",
+        "description": "San Francisco Skyline"
+    },
+    {
+        "image": "./images/Photography/SanFrancisco/Music-Concourse-1.jpg",
+        "description": "Music Concourse"
+    },
+    {
+        "image": "./images/Photography/SanFrancisco/Music-Concourse-2.jpg",
+        "description": "Music Concourse"
+    },
+    {
+        "image": "./images/Photography/SanFrancisco/Music-Concourse-3.jpg",
+        "description": "Music Concourse"
+    },
+    {
+        "image": "./images/Photography/SanFrancisco/Music-Concourse-4.jpg",
+        "description": "Music Concourse"
+    },
+    {
+        "image": "./images/Photography/SanFrancisco/Alcatraz-Island.jpg",
+        "description": "Alcatraz Island"
+    },
+    {
+        "image": "./images/Photography/SanFrancisco/Golden-Gate-Park.jpg",
+        "description": "Golden Gate Park"
+    },
+    {
+        "image": "./images/Photography/SanFrancisco/Golden-Gate-Park-Polo-Field.jpg",
+        "description": "Golden Gate Park Polo Field"
+    },
+    {
+        "image": "./images/Photography/SanFrancisco/Golden-Gate-Park-Polo-Field-2.jpg",
+        "description": "Golden Gate Park Polo Field"
+    },
+    {
+        "image": "./images/Photography/SanFrancisco/Brannan-Street-Wharf-Park-1.jpg",
+        "description": "Brannan Street Wharf Park"
+    },
+    {
+        "image": "./images/Photography/SanFrancisco/Brannan-Street-Wharf-Park-Bridge.jpg",
+        "description": "Brannan Street Wharf Park Bridge"
+    },
+    {
+        "image": "./images/Photography/SanFrancisco/Brannan-Street-Wharf-Park-2.jpg",
+        "description": "Brannan Street Wharf Park"
+    }
+
+]
