@@ -1,0 +1,13 @@
+.Headline {
+    text-align: center;
+}
+
+.mainHouston {
+    gap: 11px;
+    padding: 20px 20px 40px 20px;
+    border: 6px solid #516b3f;
+    align-items: stretch;
+    flex: 1 1 auto;
+    min-height: 0;
+    background: #cdc3a9;
+  }

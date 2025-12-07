@@ -1,0 +1,41 @@
+.BackDrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .Content {
+    border-radius: 10px;
+    max-width: 50%;
+    max-height: 80%;
+    overflow: auto;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    text-align: center;
+    
+  }
+  
+  .CardImage {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .overlay {
+    pointer-events: none;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 25px
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  

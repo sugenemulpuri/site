@@ -1,0 +1,26 @@
+[
+    {
+        "image": "./images/Photography/Saginaw/Saginaw-Cover.jpg",
+        "description": "Deer Looking from Forest"
+    },
+    {
+        "image": "./images/Photography/Saginaw/Saginaw-Apple-Tree.jpg",
+        "description": "Apple Tree"
+    },
+    {
+        "image": "./images/Photography/Saginaw/Saginaw-Multiple-Deer.jpg",
+        "description": "Multiple Deer in Yard"
+    },
+    {
+        "image": "./images/Photography/Saginaw/Saginaw-Rainbow.jpg",
+        "description": "Rainbow over Yard"
+    },
+    {
+        "image": "./images/Photography/Saginaw/Saginaw-Cat-Backyard.jpg",
+        "description": "Cat on Playset"
+    },
+    {
+        "image": "./images/Photography/Saginaw/Saginaw-Yard-Tree-In-Spring.jpg",
+        "description": "Tree Blooming in Spring"
+    }
+]

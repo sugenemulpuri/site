@@ -1,0 +1,153 @@
+.mainResume {
+    border: 6px solid #516b3f;
+    background: #cdc3a9;
+    padding: clamp(16px, 4vw, 48px);
+  }
+  
+  .ResumeDiv {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  
+
+.resumeHeader {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-items: center;
+    text-align: center;
+  }
+  
+  .ResumeDiv {
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 600;
+  }
+  
+  .HeadshotImage {
+    width: 100%;
+    max-width: 180px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  }
+
+  .LangAndTechTitle {
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 600;
+  }
+
+
+.LangAndTechList {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  
+  .ListDiv {
+    padding: 0;
+  }
+  
+  ul {
+    padding-left: 18px;
+  }
+
+
+.Socials {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    justify-items: center;
+    margin-top: 16px;
+  }
+  
+  .SocialLink img {
+    width: 100%;
+    max-width: 240px;
+    transition: transform 0.2s ease;
+  }
+  
+  
+  .SocialLink img:hover {
+    transform: scale(1.05);
+  }
+
+  @media (max-width: 480px) {
+
+    .ResumeDiv {
+        font-size: 24px;
+        line-height: 1.2;
+        font-weight: 600;
+      }
+
+
+      .LangAndTechTitle {
+        font-size: 24px;
+        line-height: 1.2;
+        font-weight: 600;
+      }
+
+  }
+
+  
+  @media (min-width: 768px) {
+
+    .ResumeDiv {
+      gap: 40px;
+    }
+  
+    .resumeHeader {
+      grid-template-columns: 2fr 1fr;
+      align-items: center;
+      justify-items: start;
+      text-align: left;
+    }
+  
+    .HeadshotImage {
+      max-width: 240px;
+      justify-self: end;
+    }
+  
+    .LangAndTechList {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .Socials {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        justify-items: start;
+      }
+    
+      .SocialLink img {
+        max-width: 260px;
+      }
+  }
+
+  @media (min-width: 1024px) {
+
+    .ResumeDiv {
+      grid-template-columns: 3fr 1fr;
+      column-gap: 48px;
+    }
+
+    .resumeHeader,
+    .LangAndTechList{
+      grid-column: 1 / -1;
+    }
+  
+    .HeadshotImage {
+      max-width: 300px;
+    }
+
+    .Socials {
+        grid-template-columns: 1fr;
+        justify-items: start; 
+      }
+    
+      .SocialLink img {
+        max-width: 320px;
+      }
+  }
+  

@@ -1,0 +1,225 @@
+.AboutH1 {
+    color: black;
+    padding: 0px 30px 0px 30px;
+    text-align: center;
+}
+
+.AboutP {
+    padding: 10px 30px 10px 30px;
+
+}
+
+.fadeInLeft {
+    opacity: 0;
+    transform: translateX(-600px);
+    animation: fadeInLeft 0.8s ease forwards;
+  }
+  
+  @keyframes fadeInLeft {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .fadeInUp {
+    opacity: 0;
+    transform: translateY(600px);
+    animation: fadeInUp 2.4s ease forwards;
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+    .imageContainer {
+        display: flex;
+        align-items: flex-end;
+        gap: 20px;
+        justify-content: center;
+        padding: 20px;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    
+    .image-1 {
+        height: 300px;     
+        width: auto;       
+        object-fit: cover;
+        border-radius: 10px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .image-2 {
+      height: 300px;     
+      width: auto;       
+      object-fit: cover;
+      border-radius: 10px;
+      overflow: hidden;
+      cursor: pointer;
+  }
+
+  .image-3 {
+    height: 300px;     
+    width: auto;       
+    object-fit: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+    .mainAbout {
+        gap: 11px;
+        padding: 20px 20px 40px 20px;
+        border: 6px solid #516b3f;
+        align-items: stretch;
+        flex: 1 1 auto;
+        min-height: 0;
+        background: #cdc3a9;;
+        height: auto;
+      }
+
+
+      @media (max-width: 480px) {
+
+        .imageContainer {
+          display: flex;
+        flex-direction: column;
+        object-fit: contain;
+          gap: 20px;
+          justify-content: center;
+          padding: 20px;
+          align-self: center;
+          flex-direction: column;
+          border-radius: 20px;
+          overflow: hidden;
+     
+        }
+
+          .image-1 {
+            height: 300px;     
+            width: 280px;       
+            margin: auto;
+            object-fit: cover;
+            border-radius: 30px;
+            align-self: center;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .image-2 {
+          height: 300px;     
+          width: 280px;       
+          object-fit: contain;
+          border-radius: 30px;
+          align-self: center;
+          overflow: hidden;
+          cursor: pointer;
+      }
+
+      .image-3 {
+        height: 300px;     
+        width: 280px;       
+        object-fit: contain;
+        border-radius: 30px;
+        align-self: center;
+        overflow: hidden;
+        cursor: pointer;
+    }  
+      }
+
+      @media (max-width: 768px) {
+
+        .imageContainer {
+          display: flex;
+        flex-direction: column;
+        object-fit: contain;
+          gap: 20px;
+          justify-content: center;
+          padding: 20px;
+          align-self: center;
+          flex-direction: column;
+          border-radius: 10px;
+          overflow: hidden;
+        }
+
+        .image-1 {
+          height: 300px;     
+          width: 280px;       
+          object-fit: contain;
+          border-radius: 30px;
+          align-self: center;
+          overflow: hidden;
+          cursor: pointer;
+      }
+
+      .image-2 {
+        height: 300px;     
+        width: 280px;       
+        object-fit: contain;
+        border-radius: 30px;
+        align-self: center;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .image-3 {
+      height: 300px;     
+      width: 280px;       
+      object-fit: contain;
+      border-radius: 30px;
+      align-self: center;
+      overflow: hidden;
+      cursor: pointer;
+  }
+      }
+
+
+
+      @media (max-width: 1024px) {
+
+        .image-1 {
+          height: 300px;     
+          width: 280px;       
+          object-fit: cover;
+          border-radius: 30px;
+          align-self: center;
+          margin: auto;
+          overflow: hidden;
+          object-position: 25% 20%;
+          cursor: pointer;
+      }
+
+      .image-2 {
+        height: 300px;     
+        width: 280px;       
+        object-fit: cover;
+        border-radius: 30px;
+        align-self: center;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .image-3 {
+      height: 300px;     
+      width: 280px;       
+      object-fit: cover;
+      border-radius: 30px;
+      align-self: center;
+      overflow: hidden;
+      cursor: pointer;
+  }
+  .imageContainer {
+  object-fit: contain;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    align-self: center;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+      }
