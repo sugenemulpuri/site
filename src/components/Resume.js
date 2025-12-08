@@ -12,10 +12,10 @@ function Resume() {
     className="HeadshotImage fadeInUp"
 /></div>
 <div className="Socials">
-    <a href="https://www.linkedin.com/in/sugenemulpuri" target="_blank" rel="noopener noreferrer" className="SocialLink"
+    <a href="https://www.linkedin.com/in/sugenemulpuri" className="SocialLink"
     ><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
     </a>
-    <a href="https://github.com/sugenemulpuri" target="_blank" rel="noopener noreferrer" className="SocialLink">
+    <a href="https://github.com/sugenemulpuri" className="SocialLink">
         <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge" />
     </a>
 </div>
