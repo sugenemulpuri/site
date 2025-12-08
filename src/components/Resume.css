@@ -8,6 +8,9 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 32px;
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 600;
   }
   
 
@@ -17,12 +20,6 @@
     gap: 20px;
     justify-items: center;
     text-align: center;
-  }
-  
-  .ResumeDiv {
-    font-size: 50px;
-    line-height: 1.2;
-    font-weight: 600;
   }
   
   .HeadshotImage {

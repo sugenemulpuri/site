@@ -32,7 +32,7 @@
 
 .DetroitCard:focus {
   outline: none;
-  box-shadow: 0 0 0 4px var(--focus);
+  box-shadow: 0 0 0 4px #2196F3;
   transform: translateY(-2px);
 }
 
@@ -57,7 +57,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(180deg, #000000 0%, var(--overlay) 60%);
+  background: linear-gradient(180deg, #000000 0%, rgba(0,0,0,0.55) 60%);
   color: #ffffff;
   text-align: center;
   opacity: 0;

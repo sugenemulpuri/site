@@ -5,9 +5,6 @@
     border: 6px solid #46211A;
     overflow: hidden;
     color: #46211A;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     width: 100%;
     object-fit: cover;
     display: block;
@@ -33,7 +30,7 @@
 
 .SaginawCard:focus {
   outline: none;
-  box-shadow: 0 0 0 4px var(--focus);
+  box-shadow: 0 0 0 4px #2196F3;
   transform: translateY(-2px);
 }
 
@@ -58,7 +55,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(180deg, #000000 0%, var(--overlay) 60%);
+  background: linear-gradient(180deg, #000000 0%, rgba(0,0,0,0.55) 60%);
   color: #ffffff;
   text-align: center;
   opacity: 0;
@@ -86,11 +83,11 @@
   opacity: .95;
 }
 
-.projects-grid > .SaginawCard { 
+.projectsGrid > .SaginawCard { 
   border: 3px solid transparent; 
     }
 
-.projects-grid > .SaginawCard + .SaginawCard { 
+.projectsGrid > .SaginawCard + .SaginawCard { 
   border-top-color: rgba(0,0,0,0.03); 
     }
 
