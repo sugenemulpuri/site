@@ -40,8 +40,6 @@
         }
 
 .navbar a:focus { 
-    outline: 3px solid #2196F3;; 
-    outline-offset: 3px; 
     border-radius: 6px; 
     background: #516b3f;
     color: #ffffff;

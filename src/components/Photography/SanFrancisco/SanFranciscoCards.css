@@ -29,7 +29,6 @@
 
 .SanFranciscoCard:focus {
   outline: none;
-  box-shadow: 0 0 0 4px #2196F3;
   transform: translateY(-2px);
 }
 
