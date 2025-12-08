@@ -35,7 +35,7 @@
     }
   }
 
-    .imageContainer {
+.imageContainer {
         display: flex;
         align-items: flex-end;
         gap: 20px;
@@ -79,7 +79,7 @@
         align-items: stretch;
         flex: 1 1 auto;
         min-height: 0;
-        background: #cdc3a9;;
+        background: #cdc3a9;
         height: auto;
       }
 

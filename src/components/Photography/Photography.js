@@ -10,13 +10,13 @@ function Photography() {
       <>
         <div className="mainPhoto">
             <main className="main">
-      <section className="projects-grid fadeInUp">
-        <article className="project-tile project-1" tabindex="0">
+      <section className="projectsGrid fadeInUp">
+        <article className="projectTile project-1" tabindex="0">
         <Link to="/saginaw" >
           <img src="images/Photography/Saginaw/Saginaw-Cover.jpg" alt="Saginaw" />
           <div className="overlay">
             <div>
-              <div id="p1title" className="title">Project 1</div>
+              <div id="p1Title" className="title">Project 1</div>
               <div className="subtitle">Saginaw</div>
             </div>
           </div>
@@ -24,12 +24,12 @@ function Photography() {
         </article>
         
         
-        <article className="project-tile project-2" tabindex="0">
+        <article className="projectTile project-2" tabindex="0">
         <Link to="/detroit" >
           <img src="images/Photography/Detroit/Detroit-Cover.jpg" alt="Detroit" />
           <div className="overlay">
             <div>
-              <div id="p2title" className="title">Project 2</div>
+              <div id="p2Title" className="title">Project 2</div>
               <div className="subtitle">Detroit</div>
             </div>
           </div>
@@ -37,12 +37,12 @@ function Photography() {
         </article>
         
         
-        <article className="project-tile project-3" tabindex="0">
+        <article className="projectTile project-3" tabindex="0">
         <Link to="/houston">
           <img src="images/Photography/Houston/Houston-Cover.jpeg" alt="Houston" />
           <div class="overlay">
             <div>
-              <div id="p3title" className="title">Project 3</div>
+              <div id="p3Title" className="title">Project 3</div>
               <div class="subtitle">Houston</div>
             </div>
           </div>
@@ -50,12 +50,12 @@ function Photography() {
         </article>
         
        
-        <article className="project-tile project-4" tabindex="0">
+        <article className="projectTile project-4" tabindex="0">
         <Link to="/san-francisco">
           <img src="images/Photography/SanFrancisco/San-Francisco-Cover.jpeg" alt="San Francisco" />
           <div className="overlay">
             <div>
-              <div id="p4title" className="title">Project 4</div>
+              <div id="p4Title" className="title">Project 4</div>
               <div className="subtitle">San Francisco</div>
             </div>
           </div>
@@ -69,7 +69,7 @@ function Photography() {
           <p>989-385-1983</p>
           <p><a href="mailto:sugenemulpuri9@gmail.com" className="formEmailLinkColor">sugenemulpuri9@gmail.com</a></p>
         </div>
-        <form className="contact-form" onSubmit={(e) => {
+        <form className="contactForm" onSubmit={(e) => {
     e.preventDefault();
     setOpen(true);
   }}>
