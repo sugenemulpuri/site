@@ -1,4 +1,4 @@
-.crop-box {
+.cropBox {
     width: 100%;
     height: 50vh;
     position: relative;
@@ -12,7 +12,7 @@ h1 {
     color: black;
 }
 
-.crop-box img {
+.cropBox img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -33,7 +33,7 @@ h1 {
     );
 }
 
-.crop-box h1 {
+.cropBox h1 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -81,7 +81,7 @@ h1 {
 
 
 @media (max-width: 1024px) {
-    .crop-box h1 {
+    .cropBox h1 {
         font-size: clamp(1.8rem, 6vw, 2.5rem);
     }
 
@@ -95,11 +95,11 @@ h1 {
 }
 
 @media (max-width: 768px) {
-    .crop-box {
+    .cropBox {
         height: 40vh;
     }
 
-    .crop-box img {
+    .cropBox img {
         mask-image: linear-gradient(
           to bottom,
           rgba(0,0,0,0) 0%,
@@ -116,7 +116,7 @@ h1 {
         );
     }
 
-    .crop-box h1 {
+    .cropBox h1 {
         font-size: clamp(1.5rem, 6vw, 2rem);
     }
 
@@ -135,11 +135,11 @@ h1 {
 }
 
 @media (max-width: 480px) {
-    .crop-box {
+    .cropBox {
         height: 30vh;
     }
 
-    .crop-box img {
+    .cropBox img {
         mask-image: linear-gradient(
           to bottom,
           rgba(0,0,0,0) 0%,
@@ -156,7 +156,7 @@ h1 {
         );
     }
 
-    .crop-box h1 {
+    .cropBox h1 {
         font-size: clamp(1.2rem, 6vw, 1.5rem);
         padding: 0 5px;
     }

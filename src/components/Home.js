@@ -4,7 +4,7 @@ import "./Home.css";
 function Home() {
     return (
         <div className="mainHome">
-        <div className="crop-box fadeInUp">
+        <div className="cropBox fadeInUp">
             <img src="images/Home/Chicago-Skyline-Night.jpg" alt="Chicago Skyline HomePage"/>
             <h1>A Glimpse into Sugene's World</h1>
         </div>
