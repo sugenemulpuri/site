@@ -47,7 +47,7 @@ h1 {
 
 .projectTile:focus {
   outline: none;
-  box-shadow: 0 0 0 4px var(--focus);
+  box-shadow: 0 0 0 4px #2196F3;
   transform: translateY(-2px);
 }
 
@@ -72,7 +72,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(180deg, #000000 0%, var(--overlay) 60%);
+  background: linear-gradient(180deg, #000000 0%, rgba(0,0,0,0.55) 60%);
   color: #ffffff;
   text-align: center;
   opacity: 0;
@@ -222,8 +222,8 @@ img[alt~="San Francisco"] {
 
 .contactForm input:focus,
 .contactForm textarea:focus {
-  outline: 2px solid var(--accent);
-  border-color: var(--accent);
+  outline: 2px solid #516b3f;
+  border-color: #516b3f;
   background: #ffffff;
 }
 
